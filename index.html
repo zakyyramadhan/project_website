@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SteelFlow Piping Solutions — Company Profile</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>SteelFlow Piping Solutions — Kontraktor Piping Industri Jakarta</title>
+  <meta name="description" content="SteelFlow Piping Solutions: Kontraktor profesional pemasangan, fabrikasi, dan pemeliharaan pipa baja untuk proyek industri, komersial, dan energi di Indonesia.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><rect width='24' height='24' fill='%2315110d'/><path d='M12 3l9 5v8l-9 5-9-5V8z' fill='none' stroke='%23ff5a1f' stroke-width='2'/><circle cx='12' cy='12' r='3' fill='%23ff5a1f'/></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a href="#about" class="skip-link">Langsung ke konten utama</a>
 
   <!-- NAV -->
   <nav id="nav">
     <div class="nav-inner">
       <a href="#" class="logo">
         <div class="logo-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L20 8.5v7L12 19.82 4 15.5v-7L12 4.18z"/><path d="M12 7L7 9.5v5L12 17l5-2.5v-5L12 7zm0 1.5l3.5 1.75v3.5L12 15.5l-3.5-1.75v-3.5L12 8.5z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L20 8.5v7L12 19.82 4 15.5v-7L12 4.18z"/><path d="M12 9l-3 1.5v3L12 15l3-1.5v-3L12 9z"/></svg>
         </div>
         SteelFlow
       </a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <div class="nav-mobile-group">
+        <div class="nav-links">
+          <a href="#about">Tentang</a>
+          <a href="#services">Layanan</a>
+          <a href="#projects">Proyek</a>
+          <a href="#contact">Kontak</a>
+        </div>
+        <div class="nav-cta">
+          <span class="nav-phone">+62 21-5555-0100</span>
+          <a href="#contact" class="btn btn-primary btn-nav-cta">MINTA PENAWARAN</a>
+        </div>
       </div>
-      <div class="nav-cta">
-        <span class="nav-phone">📞 +62 812-3456-7890</span>
-        <a href="#contact" class="btn btn-primary" style="padding:10px 24px;font-size:13px;">Get Quote</a>
-      </div>
-      <button class="hamburger" onclick="this.classList.toggle('active')">
+      <button class="hamburger" aria-label="Buka menu navigasi" onclick="this.classList.toggle('active')">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -38,74 +41,53 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container hero-content">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        Trusted Since 2008
-      </div>
-      <h1>Building <span>Piping Systems</span> That Last Generations</h1>
-      <p>Professional contractor for industrial, commercial, and residential piping solutions. Quality steel, expert welders, on-time delivery.</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn btn-primary">Get Free Quote →</a>
-        <a href="#projects" class="btn btn-outline">View Projects</a>
-      </div>
-      <div class="hero-stats">
-        <div>
-          <div class="hero-stat-number">500+</div>
-          <div class="hero-stat-label">Projects Completed</div>
-        </div>
-        <div>
-          <div class="hero-stat-number">15+</div>
-          <div class="hero-stat-label">Years Experience</div>
-        </div>
-        <div>
-          <div class="hero-stat-number">98%</div>
-          <div class="hero-stat-label">Client Satisfaction</div>
-        </div>
-        <div>
-          <div class="hero-stat-number">50+</div>
-          <div class="hero-stat-label">Expert Welders</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="container about-grid">
-      <div class="about-image">
-        <div class="about-image-icon">🔧</div>
-      </div>
-      <div>
-        <div class="section-label">About Us</div>
-        <h2 class="section-title">Your Trusted Piping Partner</h2>
-        <p class="section-desc">SteelFlow Piping Solutions is a leading contractor specializing in steel pipe installation, maintenance, and fabrication for industrial and commercial projects across Indonesia.</p>
-        <div class="about-features">
-          <div class="about-feature">
-            <div class="about-feature-icon">🏗️</div>
-            <div>
-              <h4>Industrial Grade</h4>
-              <p>ASME & API certified materials</p>
+      <div class="hero-split">
+        <div class="hero-text-col">
+          <div class="hero-eyebrow">Berdiri Sejak 2008 · Jakarta, Indonesia</div>
+          <h1>Piping Industri<br><span class="hero-accent">Dibangun untuk Generasi</span></h1>
+          <p class="hero-description">Kontraktor profesional spesialis pemasangan, fabrikasi, dan pemeliharaan pipa baja untuk proyek industri, komersial, dan energi.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Minta Penawaran →</a>
+            <a href="#projects" class="btn btn-outline">Lihat Proyek</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-number">500+</div>
+              <div class="hero-stat-label">Proyek Selesai</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">15+</div>
+              <div class="hero-stat-label">Tahun Pengalaman</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">98%</div>
+              <div class="hero-stat-label">Kepuasan Klien</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">50+</div>
+              <div class="hero-stat-label">Welder Ahli</div>
             </div>
           </div>
-          <div class="about-feature">
-            <div class="about-feature-icon">⚡</div>
-            <div>
-              <h4>Fast Delivery</h4>
-              <p>On-time project completion</p>
+        </div>
+        <div class="hero-panel-col">
+          <div class="hero-panel">
+            <div class="hero-panel-label">Sertifikasi</div>
+            <div class="hero-panel-badges">
+              <span class="hero-badge-item">ASME B31.1</span>
+              <span class="hero-badge-item">ASME B31.3</span>
+              <span class="hero-badge-item">API 570</span>
+              <span class="hero-badge-item">ISO 9001:2024</span>
+              <span class="hero-badge-item">ASME Sec. IX</span>
+              <span class="hero-badge-item">AWS D1.1</span>
             </div>
-          </div>
-          <div class="about-feature">
-            <div class="about-feature-icon">🛡️</div>
-            <div>
-              <h4>Safety First</h4>
-              <p>Zero-incident track record</p>
+            <div class="hero-panel-divider"></div>
+            <div class="hero-panel-metric">
+              <span class="hero-panel-metric-num">24/7</span>
+              <span class="hero-panel-metric-label">Tanggap Darurat</span>
             </div>
-          </div>
-          <div class="about-feature">
-            <div class="about-feature-icon">📋</div>
-            <div>
-              <h4>Full Documentation</h4>
-              <p>Complete project reporting</p>
+            <div class="hero-panel-metric">
+            <span class="hero-panel-metric-num">12 thn</span>
+              <span class="hero-panel-metric-label">Rata-rata Pengalaman Welder</span>
             </div>
           </div>
         </div>
@@ -113,130 +95,145 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
+  <!-- TENTANG + KEUNGGULAN -->
+  <section class="about-merged" id="about">
+    <div class="container">
+      <div class="about-intro">
+        <div class="subhead">Tentang SteelFlow</div>
+        <div class="manifesto-pull">"Piping bersertifikasi ASME untuk infrastruktur yang menggerakkan Indonesia."</div>
+        <p class="body-text manifesto-intro">SteelFlow Piping Solutions adalah kontraktor spesialis pemasangan, fabrikasi, dan pemeliharaan pipa baja. Kami melayani pabrik industri, gedung komersial, dan infrastruktur energi di seluruh Indonesia dengan kepatuhan ASME B31.1 dan B31.3.</p>
+      </div>
+      <div class="pillar-grid">
+        <div class="pillar">
+          <div class="pillar-num">01</div>
+          <div>
+            <h4>Industrial Grade</h4>
+            <p>Material bersertifikasi ASME & API dengan ketertelusuran pabrik penuh. Pipa carbon steel, stainless steel, dan alloy.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">02</div>
+          <div>
+            <h4>Tepat Waktu</h4>
+            <p>98% proyek selesai sesuai atau lebih cepat jadwal. Perencanaan proyek detail dari hari pertama.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">03</div>
+          <div>
+            <h4>Utamakan Keselamatan</h4>
+            <p>Zero-incident track record. Semua welder dan inspector memegang sertifikasi aktif.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">04</div>
+          <div>
+            <h4>Dokumentasi Lengkap</h4>
+            <p>Pelaporan proyek lengkap dengan mill certificates, catatan inspeksi, dan gambar as-built.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYANAN / INDEX -->
   <section class="services" id="services">
     <div class="container">
       <div class="services-header">
-        <div class="section-label">Our Services</div>
-        <h2 class="section-title">Complete Piping Solutions</h2>
-        <p class="section-desc">From design to installation, we handle every aspect of your piping project with precision and care.</p>
+        <div class="subhead">Layanan</div>
+        <h2 class="section-title">Solusi Piping Menyeluruh</h2>
+        <p class="body-text">Dari desain hingga instalasi, kami menangani setiap aspek proyek piping Anda dengan presisi dan ketelitian.</p>
       </div>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon">🔩</div>
-          <h3>Pipe Installation</h3>
-          <p>Complete piping system installation for industrial plants, commercial buildings, and infrastructure projects. Carbon steel, stainless steel, and alloy piping.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">01</div>
+          <h3>Instalasi Pipa</h3>
+          <p>Instalasi sistem piping lengkap untuk pabrik industri, gedung komersial, dan proyek infrastruktur. Carbon steel, stainless steel, alloy piping. Welder bersertifikasi ASME Section IX. Manajemen proyek penuh dari survey lokasi hingga komisioning.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🔧</div>
-          <h3>Pipe Fabrication</h3>
-          <p>Custom pipe fabrication in our workshop. Bending, welding, cutting, and assembly to exact specifications with quality control at every step.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">02</div>
+          <h3>Fabrikasi Pipa</h3>
+          <p>Fabrikasi pipa custom di workshop kami. Bending, welding, cutting, dan assembly sesuai spesifikasi dengan quality control di setiap tahap.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🔍</div>
-          <h3>Inspection & Testing</h3>
-          <p>Hydrostatic testing, radiographic inspection, and NDT services. Full compliance with ASME B31.1 and B31.3 standards.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">03</div>
+          <h3>Inspeksi & Pengujian</h3>
+          <p>Hydrostatic testing, radiographic inspection, dan NDT services. Kepatuhan penuh terhadap standar ASME B31.1 dan B31.3.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🛠️</div>
-          <h3>Maintenance & Repair</h3>
-          <p>Scheduled maintenance programs and emergency repair services. Minimize downtime with our rapid response team.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">04</div>
+          <h3>Perawatan & Perbaikan</h3>
+          <p>Program perawatan terjadwal dan layanan perbaikan darurat. Minimalkan downtime dengan tim respons cepat kami.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
         <div class="service-card">
-          <div class="service-icon">📐</div>
-          <h3>Piping Design</h3>
-          <p>Engineering and design services using latest CAD/CAE software. Stress analysis, isometric drawings, and material take-offs.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">05</div>
+          <h3>Desain Piping</h3>
+          <p>Layanan engineering dan desain menggunakan software CAD/CAE terkini. Stress analysis, isometric drawings, dan material take-offs.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
         <div class="service-card">
-          <div class="service-icon">🔥</div>
-          <h3>Welding Services</h3>
-          <p>Certified welders for SMAW, GTAW, FCAW, and SAW processes. All welders qualified per ASME Section IX.</p>
-          <span class="service-link">Learn more →</span>
+          <div class="service-num">06</div>
+          <h3>Layanan Las</h3>
+          <p>Welder tersertifikasi untuk proses SMAW, GTAW, FCAW, dan SAW. Semua welder qualified per ASME Section IX.</p>
+          <a href="#contact" class="service-link">Detail →</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WHY US -->
-  <section class="why-us">
-    <div class="container why-grid">
-      <div>
-        <div class="section-label">Why Choose Us</div>
-        <h2 class="section-title">Built on Trust, Driven by Quality</h2>
-        <p class="section-desc">We don't just install pipes — we build long-term partnerships with our clients through reliability and excellence.</p>
-        <div class="why-items">
-          <div class="why-item">
-            <div class="why-item-num">01</div>
-            <div>
-              <h4>Certified Team</h4>
-              <p>All welders and inspectors hold valid certifications. Continuous training keeps our team at industry leading edge.</p>
-            </div>
-          </div>
-          <div class="why-item">
-            <div class="why-item-num">02</div>
-            <div>
-              <h4>Quality Materials</h4>
-              <p>We source only from approved mills. Every material comes with mill certificates and traceability documentation.</p>
-            </div>
-          </div>
-          <div class="why-item">
-            <div class="why-item-num">03</div>
-            <div>
-              <h4>On-Time Delivery</h4>
-              <p>98% of our projects completed on or ahead of schedule. Detailed project planning from day one.</p>
-            </div>
-          </div>
-          <div class="why-item">
-            <div class="why-item-num">04</div>
-            <div>
-              <h4>Competitive Pricing</h4>
-              <p>Fair pricing without compromising quality. Transparent quotes with no hidden costs.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="why-image">🏗️</div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
+  <!-- PROYEK / TABLE -->
   <section class="projects" id="projects">
     <div class="container">
-      <div class="projects-header">
-        <div class="section-label">Our Work</div>
-        <h2 class="section-title">Recent Projects</h2>
-        <p class="section-desc">A selection of our completed projects across various industries.</p>
-      </div>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-thumb project-thumb-1">🏭</div>
-          <div class="project-info">
-            <div class="project-tag">Industrial</div>
-            <h3>Oil Refinery Piping System</h3>
-            <p>Complete piping installation for 50,000 BPD refinery. Carbon steel and alloy piping, 12 months duration.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-thumb project-thumb-2">🏢</div>
-          <div class="project-info">
-            <div class="project-tag">Commercial</div>
-            <h3>High-Rise HVAC Piping</h3>
-            <p>Chilled water and condenser piping for 35-story office tower. Stainless steel fabrication and installation.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-thumb project-thumb-3">⚡</div>
-          <div class="project-info">
-            <div class="project-tag">Energy</div>
-            <h3>Power Plant Steam Piping</h3>
-            <p>High-pressure steam piping for 100MW power plant. ASME B31.1 compliance, 8 months duration.</p>
-          </div>
-        </div>
+      <div class="subhead">Portofolio</div>
+      <h2 class="section-title">Proyek Terbaru</h2>
+      <p class="body-text">Sejumlah proyek yang telah kami selesaikan di berbagai sektor industri.</p>
+      <div class="project-table-wrapper">
+      <table class="project-table">
+        <thead>
+          <tr>
+            <th>Sektor</th>
+            <th>Proyek</th>
+            <th>Lingkup</th>
+            <th>Durasi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="project-cat">Industrial</span></td>
+            <td class="project-name">Sistem Piping Kilang Minyak</td>
+            <td>50,000 BPD refinery · Carbon steel & alloy piping</td>
+            <td>12 bulan</td>
+          </tr>
+          <tr>
+            <td><span class="project-cat">Komersial</span></td>
+            <td class="project-name">Piping HVAC Gedung Tinggi</td>
+            <td>Chilled water & condenser piping · 35 lantai</td>
+            <td>8 bulan</td>
+          </tr>
+          <tr>
+            <td><span class="project-cat">Energi</span></td>
+            <td class="project-name">Piping Uap PLTU</td>
+            <td>High-pressure steam · 100MW · ASME B31.1</td>
+            <td>8 bulan</td>
+          </tr>
+          <tr>
+            <td><span class="project-cat">Industrial</span></td>
+            <td class="project-name">Pipe Rack Pabrik Kimia</td>
+            <td>Structural pipe supports & process piping</td>
+            <td>6 bulan</td>
+          </tr>
+          <tr>
+            <td><span class="project-cat">Komersial</span></td>
+            <td class="project-name">Proteksi Kebakaran Mal</td>
+            <td>Fire sprinkler & standpipe system</td>
+            <td>5 bulan</td>
+          </tr>
+        </tbody>
+      </table>
       </div>
     </div>
   </section>
@@ -244,84 +241,69 @@
   <!-- CTA -->
   <section class="cta">
     <div class="container">
-      <h2>Ready to Start Your Project?</h2>
-      <p>Get a free consultation and quote for your piping project. Our team is ready to help.</p>
+      <h2>Siap Memulai Proyek Anda?</h2>
+      <p>Dapatkan konsultasi gratis dan penawaran untuk proyek piping Anda. Tim kami siap membantu.</p>
       <div class="cta-buttons">
-        <a href="#contact" class="btn btn-white">Get Free Quote →</a>
-        <a href="tel:+628****7890" class="btn btn-outline">Call Now</a>
+        <a href="#contact" class="btn btn-dark">Minta Penawaran →</a>
+        <a href="tel:+622155550100" class="btn btn-outline-dark">Hubungi Sekarang</a>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- KONTAK -->
   <section class="contact" id="contact">
-    <div class="container contact-grid">
-      <div>
-        <div class="section-label">Get In Touch</div>
-        <h2 class="section-title">Let's Discuss Your Project</h2>
-        <p class="section-desc">Contact us for a free consultation. We'll review your requirements and provide a detailed proposal.</p>
+    <div class="container">
+      <div class="subhead">Kontak</div>
+      <h2 class="section-title">Diskusikan<br>Proyek Anda</h2>
+      <p class="body-text">Hubungi kami untuk konsultasi gratis. Kami akan meninjau kebutuhan Anda dan memberikan proposal detail.</p>
+      <div class="contact-grid">
         <div class="contact-info">
           <div class="contact-item">
-            <div class="contact-icon">📍</div>
             <div>
-              <h4>Office</h4>
-              <p>Jl. Industri Raya No. 88, Kawasan Industri<br>Jakarta 13240, Indonesia</p>
+              <h4>Kantor</h4>
+              <p>Jl. Industri Raya No. 88, Kawasan Industri, Jakarta 13240, Indonesia</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">📞</div>
             <div>
-              <h4>Phone</h4>
-              <p>+62 812-3456-7890<br>+62 21-5555-0100</p>
+              <h4>Telepon</h4>
+              <p>+62 21-5555-0100<br>+62 812-8000-1000</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">✉️</div>
             <div>
               <h4>Email</h4>
               <p>info@steelflow.co.id<br>projects@steelflow.co.id</p>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon">🕐</div>
             <div>
-              <h4>Working Hours</h4>
-              <p>Mon - Sat: 08:00 - 17:00<br>Emergency: 24/7 Available</p>
+              <h4>Jam Kerja</h4>
+              <p>Sen — Sab: 08:00 — 17:00<br>Darurat: 24/7</p>
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! We will contact you soon.');">
-          <div class="form-row">
-            <div class="form-group">
-              <label>Full Name</label>
-              <input type="text" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-              <label>Company</label>
-              <input type="text" placeholder="Company name">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label>Email</label>
-              <input type="email" placeholder="you@company.com" required>
-            </div>
-            <div class="form-group">
-              <label>Phone</label>
-              <input type="tel" placeholder="+62 812-xxxx-xxxx">
-            </div>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/xanyqkpv" method="POST">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" placeholder="Nama Anda" required>
           </div>
           <div class="form-group">
-            <label>Service Needed</label>
-            <input type="text" placeholder="e.g. Pipe Installation, Fabrication, Maintenance">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="anda@perusahaan.com" required>
           </div>
           <div class="form-group">
-            <label>Project Details</label>
-            <textarea placeholder="Tell us about your project requirements..."></textarea>
+            <label for="service">Layanan Dibutuhkan</label>
+            <input type="text" id="service" name="service" placeholder="Instalasi Pipa, Fabrikasi, dll.">
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Inquiry →</button>
+          <div class="form-group">
+            <label for="message">Detail Proyek</label>
+            <textarea id="message" name="message" placeholder="Ceritakan tentang kebutuhan proyek Anda..."></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" id="formSubmitBtn">KIRIM PERTANYAAN →</button>
+            <div class="form-feedback" id="formFeedback"></div>
+          </div>
         </form>
       </div>
     </div>
@@ -334,38 +316,32 @@
         <div class="footer-brand">
           <div class="logo">
             <div class="logo-icon">
-              <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L20 8.5v7L12 19.82 4 15.5v-7L12 4.18z"/><path d="M12 7L7 9.5v5L12 17l5-2.5v-5L12 7zm0 1.5l3.5 1.75v3.5L12 15.5l-3.5-1.75v-3.5L12 8.5z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L20 8.5v7L12 19.82 4 15.5v-7L12 4.18z"/><path d="M12 9l-3 1.5v3L12 15l3-1.5v-3L12 9z"/></svg>
             </div>
             SteelFlow
           </div>
-          <p>Professional piping contractor delivering quality steel pipe solutions for industrial, commercial, and energy projects since 2008.</p>
+          <p>Kontraktor piping profesional sejak 2008. Solusi pipa baja berkualitas untuk proyek industri, komersial, dan energi.</p>
+          <p class="footer-address">Jl. Industri Raya No. 88, Jakarta 13240, Indonesia</p>
         </div>
         <div class="footer-col">
-          <h4>Services</h4>
-          <a href="#">Pipe Installation</a>
-          <a href="#">Pipe Fabrication</a>
-          <a href="#">Inspection & Testing</a>
-          <a href="#">Maintenance & Repair</a>
-          <a href="#">Welding Services</a>
+          <h4>Layanan</h4>
+          <a href="#">Instalasi Pipa</a>
+          <a href="#">Fabrikasi Pipa</a>
+          <a href="#">Inspeksi & Pengujian</a>
+          <a href="#">Perawatan & Perbaikan</a>
+          <a href="#">Layanan Las</a>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
-          <a href="#">About Us</a>
-          <a href="#">Our Team</a>
-          <a href="#">Certifications</a>
-          <a href="#">Careers</a>
-          <a href="#">Contact</a>
-        </div>
-        <div class="footer-col">
-          <h4>Connect</h4>
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
-          <a href="#">Facebook</a>
-          <a href="#">YouTube</a>
+          <h4>Perusahaan</h4>
+          <a href="#">Tentang Kami</a>
+          <a href="#">Tim Kami</a>
+          <a href="#">Sertifikasi</a>
+          <a href="#">Karir</a>
+          <a href="#">Kontak</a>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 SteelFlow Piping Solutions. All rights reserved.</span>
+        <span>© 2026 SteelFlow Piping Solutions</span>
         <span>Jakarta, Indonesia</span>
       </div>
     </div>
@@ -375,3 +351,10 @@
 
 </body>
 </html>
+</html>
+
+
+</body>
+</html>
+</html>
+

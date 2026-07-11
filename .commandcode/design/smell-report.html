@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteelFlow Piping Solutions - Smell Report</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .report-section { border: 1px solid #222226; background: #0a0a0b; position: relative; }
+    .corner-box { position: absolute; width: 20px; height: 20px; border: 1px solid #222226; background: #000; }
+  </style>
+</head>
+<body class="bg-black text-[#fafafa]">
+  <main class="mx-auto w-full max-w-6xl px-5 py-8 md:px-10 md:py-12">
+    <header class="report-section mb-8 p-6 md:p-8">
+      <div class="corner-box left-0 top-0 -translate-x-1/2 -translate-y-1/2"></div>
+      <div class="corner-box right-0 top-0 translate-x-1/2 -translate-y-1/2"></div>
+      <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div>
+          <div class="mono mb-2 text-xs tracking-widest text-[#666]">// SMELL</div>
+          <h1 class="text-4xl font-bold tracking-tight md:text-6xl">SteelFlow Piping Solutions</h1>
+        </div>
+        <div class="mono text-left text-xs text-[#666] md:text-right">
+          <div>COMMANDCODE REPORT</div>
+          <div class="text-[#444]">2026-07-09</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="corner-box left-0 top-0 -translate-x-1/2 -translate-y-1/2"></div>
+      <div class="corner-box right-0 top-0 translate-x-1/2 -translate-y-1/2"></div>
+      <div class="grid gap-8 md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+        <div>
+          <div class="mono mb-2 text-xs tracking-widest text-[#666]">// OVERALL</div>
+          <div class="text-6xl font-bold tracking-tight md:text-7xl">7</div>
+          <div class="mt-1 text-lg text-[#666]">/ 10</div>
+          <div class="mt-4 inline-flex border border-[#fbbf24]/30 bg-[#fbbf24]/10 px-3 py-1 text-sm text-[#fbbf24]">FAINT</div>
+        </div>
+        <div>
+          <div class="mono mb-3 text-xs tracking-widest text-[#666]">// TL;DR</div>
+          <p class="text-sm leading-6 text-[#a0a0a0]">Structurally competent with strong domain content (ASME codes, welding specs, project details). Two detected odors: feature tile grid and default type. The bigger problem is placeholder materials — emoji replacing all imagery, a non-functional contact form, and fake phone numbers — which make the site feel unfinished rather than just generic.</p>
+          <p class="mt-4 text-sm leading-6 text-[#fbbf24]">PRIMARY MODE: deslop — fix emoji-to-image replacements, form backend, contact details, and service card hierarchy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="mono mb-6 text-xs tracking-widest text-[#666]">// HEURISTIC SCORES</div>
+      <div class="overflow-x-auto">
+        <table class="w-full min-w-[720px] border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-[#222226] text-left mono text-xs text-[#666]">
+              <th class="py-3 pr-4 font-normal">#</th>
+              <th class="py-3 pr-4 font-normal">ODOR</th>
+              <th class="py-3 pr-4 font-normal">SCORE</th>
+              <th class="py-3 font-normal">FINDING</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">1</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Tech gradient</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Dark navy-to-blue gradient is industrial, not AI-startup.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">2</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Generic tech hue</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">#0d47a1 blue fits the construction/piping domain.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">3</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Feature tile grid</td>
+              <td class="py-4 pr-4 text-[#ef4444]">0</td>
+              <td class="py-4 text-[#a0a0a0]">Six equal service cards — icon, heading, text, link. No priority signaled.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">4</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Accent rail</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Gradient top border only appears on hover. Not permanent decoration.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">5</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Unearned blur</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Frosted nav is justified. No floating glass panels elsewhere.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">6</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Stat monument</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Stats are real business metrics with context, not oversized decoration.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">7</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Icon topper</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Icons are used as content, not as decorative section toppers.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">8</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Bounce everywhere</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">No bounce easing. Transitions use standard ease curves.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">9</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Default type</td>
+              <td class="py-4 pr-4 text-[#ef4444]">0</td>
+              <td class="py-4 text-[#a0a0a0]">Inter is the default "didn't think about it" choice.</td>
+            </tr>
+            <tr class="border-b border-[#1a1a1e]">
+              <td class="py-4 pr-4 text-[#555]">10</td>
+              <td class="py-4 pr-4 text-[#fafafa]">Center stack</td>
+              <td class="py-4 pr-4 text-[#34d399]">1</td>
+              <td class="py-4 text-[#a0a0a0]">Mixed layout — not a pure center stack.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="mono mb-6 text-xs tracking-widest text-[#666]">// MATERIALS ISSUES</div>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div>
+          <div class="mb-3 text-xl font-semibold text-[#f43f5e]">Unfinished</div>
+          <ul class="space-y-3 text-sm text-[#a0a0a0]">
+            <li><span class="mono mr-2 text-[#ef4444]">FAIL</span>Emoji replaces all real imagery — project photos, workshop shots, team</li>
+            <li><span class="mono mr-2 text-[#ef4444]">FAIL</span>Non-functional contact form — `onSubmit` with `alert()` only</li>
+            <li><span class="mono mr-2 text-[#fbbf24]">WATCH</span>Fake phone number `+62 812-3456-7890` and tel link with asterisks</li>
+            <li><span class="mono mr-2 text-[#fbbf24]">WATCH</span>Inter typeface carries no identity for an Indonesian industrial firm</li>
+          </ul>
+        </div>
+        <div>
+          <div class="mb-3 text-xl font-semibold text-[#34d399]">Working</div>
+          <ul class="space-y-3 text-sm text-[#a0a0a0]">
+            <li><span class="mono mr-2 text-[#34d399]">PASS</span>Genuine domain vocabulary — ASME B31.1/B31.3, SMAW/GTAW/FCAW</li>
+            <li><span class="mono mr-2 text-[#34d399]">PASS</span>Realistic project specs (50,000 BPD refinery, 100MW plant)</li>
+            <li><span class="mono mr-2 text-[#34d399]">PASS</span>Color palette suits the industrial sector</li>
+            <li><span class="mono mr-2 text-[#34d399]">PASS</span>Left-aligned hero instead of centered default</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="mono mb-6 text-xs tracking-widest text-[#666]">// WHAT'S WORKING</div>
+      <div class="grid gap-4 md:grid-cols-3">
+        <article class="border border-[#1f1f24] p-4">
+          <h2 class="mb-2 text-sm font-semibold">Domain-Specific Content</h2>
+          <p class="text-sm leading-6 text-[#a0a0a0]">ASME code references, specific welding processes, and detailed project specs signal genuine industrial expertise that generic AI content would not produce.</p>
+        </article>
+        <article class="border border-[#1f1f24] p-4">
+          <h2 class="mb-2 text-sm font-semibold">Color Strategy</h2>
+          <p class="text-sm leading-6 text-[#a0a0a0]">Dark navy with orange accent reads as industrial and trustworthy rather than generic SaaS or AI startup.</p>
+        </article>
+        <article class="border border-[#1f1f24] p-4">
+          <h2 class="mb-2 text-sm font-semibold">Composition Variety</h2>
+          <p class="text-sm leading-6 text-[#a0a0a0]">Mixed left-aligned, centered, and asymmetrical layouts avoid the pure center-stack trap.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="mono mb-6 text-xs tracking-widest text-[#666]">// PRIORITY ISSUES</div>
+      <div class="space-y-5">
+        <article class="border border-[#2a1d22] bg-[#110b0d] p-5">
+          <div class="mono mb-2 text-xs text-[#f43f5e]">P1</div>
+          <h2 class="mb-2 text-lg font-semibold">Emoji Replaces All Imagery</h2>
+          <p class="mb-4 text-sm leading-6 text-[#a0a0a0]">Every visual section — about hero, service icons, project thumbnails, why-us image — uses emoji on gradient backgrounds instead of real photos. For a construction company, project photography is a primary trust signal. Emoji placeholder reads as "AI generated and never finished."</p>
+          <div class="border-l border-[#fbbf24] pl-4 text-sm leading-6 text-[#fbbf24]">FIX: Replace all emoji placeholders with real project photos, workshop shots, and team imagery. Replace service emoji with SVG icons or a simple monoline icon set.</div>
+        </article>
+        <article class="border border-[#2a1d22] bg-[#110b0d] p-5">
+          <div class="mono mb-2 text-xs text-[#f43f5e]">P2</div>
+          <h2 class="mb-2 text-lg font-semibold">Feature Tile Services Grid</h2>
+          <p class="mb-4 text-sm leading-6 text-[#a0a0a0]">Six cards in an equal grid — icon, heading, one sentence, "Learn more" link. Every service gets identical visual weight, so a visitor scanning can't tell which service is most relevant to their project. The layout signals "we filled a template" rather than "here is what we do best."</p>
+          <div class="border-l border-[#fbbf24] pl-4 text-sm leading-6 text-[#fbbf24]">FIX: Introduce hierarchy — hero-format the primary service, stack supporting services differently. Or break the grid into two rows of varying prominence.</div>
+        </article>
+        <article class="border border-[#2a1d22] bg-[#110b0d] p-5">
+          <div class="mono mb-2 text-xs text-[#f43f5e]">P2</div>
+          <h2 class="mb-2 text-lg font-semibold">Non-Functional Contact Form</h2>
+          <p class="mb-4 text-sm leading-6 text-[#a0a0a0]">The contact form uses `onsubmit="event.preventDefault(); alert(...)"` — a dev artifact with no actual submission. For a piping contractor, the contact form is the primary lead channel. A form that doesn't send data makes the site a brochure with no conversion path.</p>
+          <div class="border-l border-[#fbbf24] pl-4 text-sm leading-6 text-[#fbbf24]">FIX: Wire the form to an actual backend endpoint or a form service (Formspree, EmailJS, or server endpoint). Add loading, success, and error states.</div>
+        </article>
+        <article class="border border-[#2a1d22] bg-[#110b0d] p-5">
+          <div class="mono mb-2 text-xs text-[#f43f5e]">P3</div>
+          <h2 class="mb-2 text-lg font-semibold">Default Type & Placeholder Contact Details</h2>
+          <p class="mb-4 text-sm leading-6 text-[#a0a0a0]">Inter communicates nothing about an Indonesian industrial company. The phone number `+62 812-3456-7890` and tel link `+628****7890` are clearly fake — obvious placeholder digits.</p>
+          <div class="border-l border-[#fbbf24] pl-4 text-sm leading-6 text-[#fbbf24]">FIX: Choose a typeface with industrial character. Replace fake phone numbers with real contact info.</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="report-section mb-8 p-6 md:p-8">
+      <div class="mono mb-6 text-xs tracking-widest text-[#666]">// NEXT MODES</div>
+      <div class="flex flex-wrap gap-2">
+        <span class="border border-[#333] px-3 py-1 text-sm text-[#a0a0a0]">/design deslop</span>
+        <span class="border border-[#333] px-3 py-1 text-sm text-[#a0a0a0]">/design typeset</span>
+        <span class="border border-[#333] px-3 py-1 text-sm text-[#a0a0a0]">/design recolor</span>
+      </div>
+    </section>
+
+    <footer class="mono py-8 text-center text-xs tracking-widest text-[#444]">
+      Generated with CommandCode - 2026-07-09
+    </footer>
+  </main>
+</body>
+</html>
